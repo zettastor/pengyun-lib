@@ -1,0 +1,27 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>root</artifactId>
+    <groupId>com.pengyun</groupId>
+    <version>1.0.0-OS-SNAPSHOT</version>
+  </parent>
+
+  <groupId>com.pengyun.lib</groupId>
+  <artifactId>lib-root</artifactId>
+  <version>1.0.0-OS-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <!-- modules should be in the following order to satisfy dependencies -->
+    <module>pengyun-core</module>
+    <module>pengyun-database_core</module>
+    <module>pengyun-models</module>
+    <module>pengyun-dih_model</module>
+    <module>pengyun-dih_client</module>
+    <module>pengyun-query_log</module>
+    <module>pengyun-configuration_common</module>
+    <module>pengyun-monitor_common</module>
+  </modules>
+</project>
